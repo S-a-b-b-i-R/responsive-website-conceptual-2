@@ -6,10 +6,29 @@
         flex-direction: column;
         gap: 10px;
         margin-bottom: 10px;
+        width: 100%;
     }
     .logo-container {
         width: auto;
         justify-content: center;
+    }
+    .login-btn {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-container {
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+    }
+    .banner-text {
+        width: 100%;
+    }
+    .icon-container {
+        width: 100%;
+    }
+    .banner-img {
+        width: 100%;
     }
 }
 @media screen and (min-width: 400px) and (max-width: 900px) {
@@ -24,5 +43,21 @@
     }
     .logo-container {
         justify-content: center;
+    }
+    .banner-container {
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+    }
+    .banner-text {
+        width: 100%;
+    }
+    .icon-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .banner-img {
+        width: 100%;
     }
 }
