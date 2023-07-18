@@ -1,13 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
+}
+
 /* nav container */
 nav {
-    border: 1px solid red;
+    background-color: rgb(192, 123, 201);
+}
+.nav-container {
     min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .logo-container {
-    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.logo-container img {
+    width: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.logo-container p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hive {
+    color: rgb(24, 44, 134);
+    font-weight: 400;
 }
 
 .nav-items-container {
-    border: 1px solid blue;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.nav-items-container .login-btn {
+    background-color: rgb(24, 44, 134);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.login-btn:hover {
+    background-color: white;
+    color: rgb(24, 44, 134);
 }
