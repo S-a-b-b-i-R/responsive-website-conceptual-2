@@ -30,6 +30,9 @@
     .banner-img {
         width: 100%;
     }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
 @media screen and (min-width: 400px) and (max-width: 900px) {
     .nav-container {
@@ -59,5 +62,19 @@
     }
     .banner-img {
         width: 100%;
+    }
+    .grid-container {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .single-product {
+        width: 90%;
+    }
+    .product-icon-name-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-icon-name-container .icon-container {
+        justify-content: center;
     }
 }
