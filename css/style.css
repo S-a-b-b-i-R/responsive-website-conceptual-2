@@ -1,0 +1,13 @@
+/* nav container */
+nav {
+    border: 1px solid red;
+    min-height: 50px;
+}
+
+.logo-container {
+    border: 1px solid green;
+}
+
+.nav-items-container {
+    border: 1px solid blue;
+}
