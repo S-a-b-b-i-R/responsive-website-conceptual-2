@@ -68,7 +68,7 @@
         grid-template-columns: 1fr 1fr;
     }
     .single-product {
-        width: 90%;
+        width: 99%;
     }
     .product-icon-name-container {
         flex-direction: column;
